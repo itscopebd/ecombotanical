@@ -5,4 +5,23 @@
 }
 :root{
     --primary-color:#5ba515;
+    --primary-font:'Roboto', sans-serif;
+
 }
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: rebeccapurple; */
+}
+
+/* header section css start here  */
+.header__top__bar{
+    display: flex;
+    justify-content: space-between;
+}
+.user__info ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+/* header section css end here  */
