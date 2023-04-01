@@ -15,7 +15,7 @@ imgContainer[sliderIndex-1].style.display="block"
 
 
 }
-
+BannerLoad();
 setInterval(()=>{
     BannerLoad(sliderIndex++);
-},3000)
+},5000)
