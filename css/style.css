@@ -36,6 +36,14 @@
     margin-top: 20px;
     border-radius: 5px;
 }
+.section__gap{
+    margin: 50px 0;
+    padding: 50px 0;
+}
+.section__header__content{
+    text-align: center;
+    margin-top: 50px;
+}
 /*-------------------------------
  header section css start here
 ---------------------------------*/
@@ -214,3 +222,133 @@ color: #000;
 /*----------------------------
  choose section css end here
 -------------------------------*/
+
+
+/*----------------------------
+ product section css start here
+-------------------------------*/
+.section__header__content img{
+    margin-top: 20px;
+}
+.section__header__content p{
+    margin: 30px 0;
+}
+.product__Container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.product__Container .card{
+    position: relative;
+    border: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+.product__Container .card img{
+    width: 100%;
+}
+.product__Container .card ul{
+    display: flex;
+    width: 40%;
+   display: none;
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    transform: translate(-30%, -100%);
+    transition: 1s;
+}
+.product__Container .card:hover ul{
+    display: flex;
+    transition: 1s;
+    top: 80%;
+    left: 38%;
+}
+.product__Container .card ul li:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: .5s;
+}
+.product__Container .card ul li{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.product__Container .card ul i{
+    font-size: 25px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.p__title{
+    color: #707070;
+   font-size: 15px;
+   text-align: center;
+   margin: 10px 0;
+}
+.price{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    color: #444444;
+    text-align: center;
+}
+/*----------------------------
+ product section css end here
+-------------------------------*/
+
+
+
+/*----------------------------
+ service section css start here
+--------------------------------*/
+#services{
+    margin: 50px 0;
+    padding: 50px 0;
+}
+#services .container{
+    width: 60%;
+    margin: auto;
+}
+#services .content__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+#services .content__wrap>div{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+#services .content__wrap i{
+    color: var(--primary-color);
+    font-size: 50px;
+}
+#services .content__wrap .content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#services .content__wrap .content h4{
+    font-size: 16px;
+    line-height: 18px;
+    color: #444444;
+}
+#services .content__wrap .content p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #707070;
+}
+/*---------------------------
+ service section css end here
+------------------------------*/
