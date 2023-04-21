@@ -44,6 +44,11 @@
     text-align: center;
     margin-top: 50px;
 }
+
+.content__wrap{
+    display: flex;
+    justify-content: space-between;
+}
 /*-------------------------------
  header section css start here
 ---------------------------------*/
@@ -319,10 +324,7 @@ color: #000;
     width: 60%;
     margin: auto;
 }
-#services .content__wrap{
-    display: flex;
-    justify-content: space-between;
-}
+
 #services .content__wrap>div{
     display: flex;
     justify-content: space-between;
@@ -352,3 +354,24 @@ color: #000;
 /*---------------------------
  service section css end here
 ------------------------------*/
+
+/*----------------------------
+ offer section css start here
+------------------------------*/
+
+#offer .container{
+    width: 60%;
+    margin: auto;
+}
+#offer .container .content__wrap{
+    gap: 20px;
+}
+/* #offer .container .single.left{
+background-image: url(../img/ad1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} */
+/*-------------------------
+ offer section css end here
+---------------------------*/
